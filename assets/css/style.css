@@ -1,0 +1,69 @@
+/* ============================ 
+* author : Nigel
+* font title: Montserrat
+=============================== */
+
+/* Jika tidak ada property yg tidak dimengerti silahkan googling, atau coba ngulik satu-satu */
+
+/* struktur css */
+
+/* html, body adalah sebuah selector */
+
+html,
+body {
+    /* background-color adalah property */
+    /* #3498db adalah value dari background-color */
+    background-color: #3498db;
+    /* overflow untuk non-aktifkan scroll. karena mau buat web yg one section doang */
+    overflow: hidden;
+    /* color untuk ganti warna font */
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+p {
+    font-weight: 400 !important;
+}
+
+.peace-icon {
+    /* coba ganti value float jadi right dan lihat di browser */
+    float: left;
+    font-size: 3rem;
+    margin: 0;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container-text {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 4em;
+}

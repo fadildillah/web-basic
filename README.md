@@ -1,4 +1,4 @@
-# Bookmarker LocalStorage App
+# Manipulate DOM
 
  Simple website to learn how to manipulate DOM with javascript
 
